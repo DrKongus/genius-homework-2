@@ -394,18 +394,15 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes */
   flex-grow: 1;
 }
 
-.address-icon-footer {
-  padding-right: 24px;
-  color: var(--color-primary-white);
-}
-
 .address-icon:hover {
   height: 32px;
   width: 32px;
+  cursor: pointer;
 }
 
 .address-icon-footer {
   fill: var(--color-primary-white);
+  padding-right: 24px;
 }
 
 .link-footer {
