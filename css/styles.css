@@ -114,8 +114,7 @@ ul {
   color: var(--color-primary-dark-blue);
 }
 
-.link-header-about {
-  font-weight: 700;
+.link-header:hover {
   text-decoration: none;
   color: var(--color-primary-blue);
 }
@@ -132,6 +131,12 @@ ul {
   gap: 56px;
   flex-grow: 1;
   justify-content: center;
+}
+
+.header-icons {
+  display: flex;
+  gap: 32px;
+  padding-top: 16px;
 }
 
 .header-container {
@@ -164,7 +169,6 @@ ul {
 
 .hero-section-text-bot {
   font-size: 12px;
-  line-height: 1.5;
   padding-top: 14px;
   padding-left: 26px;
   color: var(--color-secondary-dark-gray);
@@ -228,6 +232,14 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes */
   background-image: url('/genius-homework-2/img/why-us-background.png');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.why-us-gradient {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 
 .why-us-title {
@@ -368,6 +380,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes */
 
 .contacts-privacy-policy {
   font-size: 12px;
+  padding-top: 16px;
 }
 
 /* Footer */
@@ -394,21 +407,28 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes */
   flex-grow: 1;
 }
 
-.address-icon:hover {
-  height: 32px;
-  width: 32px;
-  cursor: pointer;
-}
-
 .address-icon-footer {
   fill: var(--color-primary-white);
   padding-right: 24px;
+}
+
+.address-link:hover {
+  color: var(--color-primary-blue);
+}
+
+.address-icon:hover {
+  fill: var(--color-primary-blue);
+  cursor: pointer;
 }
 
 .link-footer {
   text-decoration: none;
   font-size: 16px;
   color: var(--color-primary-white);
+}
+
+.link-footer:hover {
+  color: var(--color-primary-blue);
 }
 
 .address-link {
